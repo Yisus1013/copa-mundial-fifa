@@ -73,6 +73,20 @@
       padding: 0.2rem 0.5rem;
       border-radius: 5px;
     }
+
+    .img-container {
+    width: 50px;           /* Ajusta según tu diseño */
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%;    /* Opcional: redondea las esquinas */
+  }
   </style>
 </head>
 <body>
@@ -102,25 +116,87 @@ América del Sur liderando en número de ediciones:
   <thead style="background-color: #003366; color: white;">
     <tr>
       <th>Año</th>
+      <th>Imagen</th>
       <th>Sede</th>
       <th>Campeón</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>1930</td><td>Uruguay</td><td>Uruguay</td></tr>
-    <tr><td>1950</td><td>Brasil</td><td>Uruguay</td></tr>
-    <tr><td>1966</td><td>Inglaterra</td><td>Inglaterra</td></tr>
-    <tr><td>1970</td><td>México</td><td>Brasil</td></tr>
-    <tr><td>1978</td><td>Argentina</td><td>Argentina</td></tr>
-    <tr><td>1994</td><td>Estados Unidos</td><td>Brasil</td></tr>
-    <tr><td>2002</td><td>Corea-Japón</td><td>Brasil</td></tr>
-    <tr><td>2010</td><td>Sudáfrica</td><td>España</td></tr>
-    <tr><td>2014</td><td>Brasil</td><td>Alemania</td></tr>
-    <tr><td>2018</td><td>Rusia</td><td>Francia</td></tr>
-    <tr><td>2022</td><td>Catar</td><td>Argentina</td></tr>
-    <tr><td>2026</td><td>EE. UU., Canadá y México</td><td>-</td></tr>
+    <tr>
+      <td>1930</td>
+      <td><div class="img-container"><img src="images/sede1.jpeg" alt="Sede 1930"></div></td>
+      <td>Uruguay</td>
+      <td>Uruguay</td>
+    </tr>
+    <tr>
+      <td>1950</td>
+      <td><div class="img-container"><img src="images/sede2.jpeg" alt="Sede 1950"></div></td>
+      <td>Brasil</td>
+      <td>Uruguay</td>
+    </tr>
+    <tr>
+      <td>1966</td>
+      <td><div class="img-container"><img src="images/sede3.jpeg" alt="Sede 1966"></div></td>
+      <td>Inglaterra</td>
+      <td>Inglaterra</td>
+    </tr>
+    <tr>
+      <td>1970</td>
+      <td><div class="img-container"><img src="images/sede4.jpeg" alt="Sede 1970"></div></td>
+      <td>México</td>
+      <td>Brasil</td>
+    </tr>
+    <tr>
+      <td>1978</td>
+      <td><div class="img-container"><img src="images/sede5.jpeg" alt="Sede 1978"></div></td>
+      <td>Argentina</td>
+      <td>Argentina</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td><div class="img-container"><img src="images/sede6.jpeg" alt="Sede 1994"></div></td>
+      <td>Estados Unidos</td>
+      <td>Brasil</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td><div class="img-container"><img src="images/sede7.jpeg" alt="Sede 2002"></div></td>
+      <td>Corea-Japón</td>
+      <td>Brasil</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td><div class="img-container"><img src="images/sede8.jpeg" alt="Sede 2010"></div></td>
+      <td>Sudáfrica</td>
+      <td>España</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td><div class="img-container"><img src="images/sede9.jpeg" alt="Sede 2014"></div></td>
+      <td>Brasil</td>
+      <td>Alemania</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td><div class="img-container"><img src="images/sede10.jpeg" alt="Sede 2018"></div></td>
+      <td>Rusia</td>
+      <td>Francia</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td><div class="img-container"><img src="images/sede11.jpeg" alt="Sede 2022"></div></td>
+      <td>Catar</td>
+      <td>Argentina</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td><div class="img-container"><img src="images/sede12.jpeg" alt="Sede 2026"></div></td>
+      <td>EE. UU., Canadá y México</td>
+      <td>-</td>
+    </tr>
   </tbody>
 </table>
+
 <br>
 La edición de 2026 marcará la primera vez que tres países coorganizan el evento, y
 también la primera vez que la Copa se celebra en tres naciones de América del Norte
