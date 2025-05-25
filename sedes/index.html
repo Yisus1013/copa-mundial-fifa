@@ -74,18 +74,20 @@
       border-radius: 5px;
     }
 
-    .img-container {
-    width: 120px;           /* Ajusta según tu diseño */
-    aspect-ratio: 1 / 1;
+  .img-container {
+    width: 60px;              /* Ancho fijo del contenedor */
+    aspect-ratio: 1 / 1;      /* Mantiene contenedor cuadrado */
     overflow: hidden;
     margin: auto;
+    background-color: #fff;   /* Fondo opcional para contraste */
+    padding: 4px;             /* Espacio interno opcional */
+    box-sizing: border-box;
   }
 
   .img-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 10%;    /* Opcional: redondea las esquinas */
+    object-fit: contain;      /* Muestra toda la imagen sin recortarla */
   }
   </style>
 </head>
